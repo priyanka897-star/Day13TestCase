@@ -20,6 +20,6 @@ class Test2 {
 	public static void main(String[] args) {
 		System.out.println("Maximum Number:" + findMax(45, 67, 72));
 
-	}
+    }
 
 }
