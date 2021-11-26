@@ -1,7 +1,5 @@
 package findmaximumnumberdouble;
 
-
-
 import org.junit.Test;
 
 class TestDouble2 {
@@ -15,12 +13,10 @@ class TestDouble2 {
 		if (z.compareTo(max) > 0) {
 			max = z;
 		}
-
 		return max;
 	}
 
 	public static void main(String[] args) {
 		System.out.println("Maximum Number:" + findMax(34.34, 123.67,121.01));
-
 	}
 }
