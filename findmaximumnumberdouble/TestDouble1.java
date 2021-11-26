@@ -13,13 +13,10 @@ class TestDouble1 {
 		if (z.compareTo(max) > 0) {
 			max = z;
 		}
-
 		return max;
 	}
 
 	public static void main(String[] args) {
 		System.out.println("Maximum Number:" + findMax(23.34, 20.67, 21.01));
-
 	}
-
 }
