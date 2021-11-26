@@ -13,13 +13,10 @@ class Test3 {
 		if (z.compareTo(max) > 0) {
 			max = z;
 		}
-
 		return max;
 	}
 
 	public static void main(String[] args) {
 		System.out.println("Maximum Number:" + findMax(78, 34, 56));
-
 	}
-
 }
